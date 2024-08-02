@@ -1,0 +1,61 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comenzá a chatear</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            color: #f74c4f;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .logo {
+            width: 150px; /* Ajusta el tamaño según tu necesidad */
+            height: auto;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+    </style>
+    <link href="favicon.png" rel="shortcut icon" type="image/x-icon">
+
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1>Comenzá a chatear con nuestra asistente inteligente</h1>
+        <h4>Presioná el botón inferior para comenzar.</h4>
+    </div>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+
+    <!--CHATBOT SASHA PRUEBA-->
+
+    <script type="text/javascript">
+      (function(d, t) {
+          var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+          v.onload = function() {
+            window.voiceflow.chat.load({
+              verify: { projectID: '6623b1a50d7189e2f7029faf' },
+              url: 'https://general-runtime.voiceflow.com',
+              versionID: 'production'
+            });
+          }
+          v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+      })(document, 'script');
+    </script>
+
+  <!-- FIN CHATBOT SASHA PRUEBA-->
+
+
+</body>
+</html>
