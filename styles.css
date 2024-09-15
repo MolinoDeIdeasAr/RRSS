@@ -2193,6 +2193,7 @@ html {
     margin-left: auto;
     padding-left: 0%;
     display: block;
+    border-radius: 15px;
   }
   
   .creacion {
